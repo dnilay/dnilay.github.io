@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Shopping cart: local storage</title>
+        <link href="css/cart.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>Logo</h1>
+                <ul>
+                    <li id="cart"><span id="total">&pound;0.00</span><span id="units" class="bubble">0</span></li>
+                    <li id="favourite"><span class="bubble">0</span></li>
+                </ul>
+            </header>
+            <div class="page">
+                <div class="result-container">
+                    <div id="result">
+                        <div>
+                            <img src="images/ps4.jpg" alt="Sony PS4" />
+                        </div>
+                        <div>
+                            <a href="#" id="add">Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal">
+            <div class="window">
+                <div class="title"><span id="close">&times;</span></div>
+                <ul id="cartList" class="content"></ul>
+            </div>
+        </div>
+
+        <script src="js/cart.js"></script>
+    </body>
+</html>
